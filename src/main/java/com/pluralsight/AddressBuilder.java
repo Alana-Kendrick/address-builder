@@ -19,5 +19,7 @@ public class AddressBuilder {
         String billingState = scanner.nextLine();
         System.out.print("Billing zip: ");
         int billingZip = scanner.nextInt();
+
+        scanner.close();
     }
 }
