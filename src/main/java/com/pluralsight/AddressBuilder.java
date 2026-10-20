@@ -20,6 +20,15 @@ public class AddressBuilder {
         System.out.print("Billing zip: ");
         int billingZip = scanner.nextInt();
 
+        System.out.print("Shipping street: ");
+        String shippingStreet = scanner.nextLine() + "\n";
+        System.out.print("Shipping city: ");
+        String shippingCity = scanner.nextLine() + ", ";
+        System.out.print("Shipping state: ");
+        String shippingState = scanner.nextLine() + " ";
+        System.out.print("Shipping zip: ");
+        int shippingZip = scanner.nextInt();
+
         StringBuilder address = new StringBuilder();
         address.append(fullName);
         address.append("\n");
